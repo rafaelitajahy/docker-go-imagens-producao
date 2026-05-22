@@ -1,0 +1,12 @@
+FROM golang:1.21
+
+WORKDIR /app
+
+COPY src/go.mod ./
+COPY src/main.go ./
+
+RUN go mod download && go mod verify
+
+RUN go build -o main .
+
+CMD ["./main"]

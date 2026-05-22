@@ -1,0 +1,16 @@
+# Binários Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/api
+
+# Artefatos de build
+src/bin/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
