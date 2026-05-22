@@ -119,6 +119,7 @@ curl -v http://localhost:8080/
 
 ## Referências
 
+- [LinuxTips (YouTube)](https://youtu.be/CHIQjLSfjoM)
 - [Multi-stage builds (Docker Docs)](https://docs.docker.com/build/building/multi-stage/)
 - [Distroless images](https://github.com/GoogleContainerTools/distroless)
 - [Chainguard Images](https://www.chainguard.dev/unchained/chainguard-images)
